@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 圓形背景 -->
+  <circle cx="16" cy="16" r="16" fill="#409EFF"/>
+  
+  <!-- P 字母 -->
+  <path d="M11 8h6c2.2 0 4 1.8 4 4s-1.8 4-4 4h-3v8h-3V8zm3 5h3c0.6 0 1-0.4 1-1s-0.4-1-1-1h-3v2z" fill="white"/>
+</svg> 

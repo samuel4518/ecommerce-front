@@ -1,5 +1,40 @@
-# Vue 3 + Vite
+# 產品管理系統
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 專案目標
+本專案旨在展示前後端技術能力，涵蓋 Vue 3 前端開發、Laravel 10 後端開發、MySQL 資料庫設計及雲端部署等技能。系統功能包括用戶管理、產品管理、訂單管理及報表生成。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Demo 連結
+https://samuel4518.github.io/ecommerce-front/login
+
+## 系統畫面
+![主控台頁面]
+![用戶管理頁面]
+![產品管理頁面]
+![訂單管理頁面]
+
+## 技術架構
+| 技術 | 描述 |
+|------|------|
+| 前端 | Vue 3, Pinia, Vue Router, Element Plus |
+| 後端 | Laravel 10, RESTful API, 中間件認證 |
+| 資料庫 | MySQL 8, Eloquent ORM |
+| 部署 | GitHub Pages (前端), Render (後端), JawsDB (資料庫) |
+| 版本控制 | Git, GitHub Actions (CI/CD) |
+
+## 測試帳號
+
+
+## 功能概覽
+- **用戶管理**：註冊、登入、角色和權限管理。
+- **產品管理**：產品的增刪改查（CRUD）功能。
+- **訂單管理**：訂單的創建、更新、查詢。
+- **報表生成**：銷售報表、庫存報表。
+
+## 使用說明
+1. 登入系統後，您可以在主控台頁面快速訪問各個管理功能。
+2. 使用測試帳號登入以體驗完整功能。
+3. 系統支援響應式設計，適合在不同裝置上使用。
+
+## 安全性與性能
+- 採用防止 SQL 注入、XSS 攻擊、CSRF 攻擊的安全措施。
+- 前端和後端均進行性能優化，包括代碼分割和查詢優化。

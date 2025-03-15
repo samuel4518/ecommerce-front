@@ -52,6 +52,14 @@ const router = createRouter({
           path: 'change-password',
           name: 'changePassword',
           component: () => import('@/views/profile/ChangePasswordView.vue')
+        },
+        {
+          path: 'settings',
+          name: 'settings',
+          component: () => import('@/views/settings/SettingsView.vue'),
+          meta: {
+            requiresAdmin: true
+          }
         }
       ]
     },
